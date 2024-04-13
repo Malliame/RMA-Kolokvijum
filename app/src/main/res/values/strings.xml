@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KolokvijumskiApp</string>
+    <string name="api_header" translatable="false">x-api-key</string>
+    <string name="api_key" translatable="false">live_i9wgc6aCdnAgfIQ46q4sbvkD6kz0Xy4nJKpx1xtVseZHkpEW9YK2gSYE2Fx2QNwq</string>
+    <string name="adaptibility">Adaptability</string>
+    <string name="affection_level">Affection level</string>
+    <string name="child_friendly">Child friendliness</string>
+    <string name="energy_level">Energy level</string>
+    <string name="grooming">Grooming</string>
+    <string name="health_issues">Health issues</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="shedding_level">Level of shedding</string>
+    <string name="social_needs">Social needs</string>
+    <string name="stranger_friendly">Stranger friendliness</string>
+    <string name="vocalisation">Vocalisation</string>
+    <string name="description">Description</string>
+    <string name="origin">Origin</string>
+    <string name="weight">Weight</string>
+    <string name="life_span">Life expectancy</string>
+    <string name="rare_breed">Rare breed</string>
+    <string name="not_rare_breed">Not a rare breed</string>
+    <string name="cat_breed">Cat Breeds</string>
+    <string name="wikipedia">Wikipedia</string>
+
+
+</resources>
