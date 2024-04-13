@@ -18,7 +18,6 @@ fun CatsListNavigation() {
         navController = navController,
         startDestination = "cats",
     ){
-        //TODO
         cats(
             route = "cats",
             onUserClick = {

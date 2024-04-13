@@ -170,7 +170,7 @@ fun CatsListScreen(
                                                     .padding(3.dp)
                                                     .wrapContentWidth()
                                                     .height(20.dp),
-                                                onClick = { /*TODO*/ },
+                                                onClick = { },
                                                 label = { Text(text = trait) })
                                         }
                                     }
@@ -182,7 +182,7 @@ fun CatsListScreen(
                                                     .padding(3.dp)
                                                     .wrapContentWidth()
                                                     .height(20.dp),
-                                                onClick = { /*TODO*/ },
+                                                onClick = {},
                                                 label = { Text(text = trait) })
                                             counter++
                                             if(counter == 3) break

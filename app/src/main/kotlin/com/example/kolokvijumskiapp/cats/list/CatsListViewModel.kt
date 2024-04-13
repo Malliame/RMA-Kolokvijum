@@ -24,9 +24,7 @@ class CatsListViewModel(
 ) : ViewModel() {
     private val _state = MutableStateFlow(CatsListState())
     val state = _state.asStateFlow()
-    private fun setState(reducer: CatsListState.() -> CatsListState) = _state.update(reducer)//TODO check what does vezbe 5
-
-
+    private fun setState(reducer: CatsListState.() -> CatsListState) = _state.update(reducer)
     private val events = MutableSharedFlow<CatsListUiEvent>()
     fun setEvent(event: CatsListUiEvent) = viewModelScope.launch { events.emit(event) }
 
@@ -44,7 +42,6 @@ class CatsListViewModel(
                 when(it){
 
                     is CatsListUiEvent.SearchQueryChanged ->{
-                        //TODO
                         viewModelScope.launch {
                             setState { copy(loading = true) }
                             Log.d("heyhey", "2")
